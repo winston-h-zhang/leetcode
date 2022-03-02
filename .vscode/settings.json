@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
+    }
+}
