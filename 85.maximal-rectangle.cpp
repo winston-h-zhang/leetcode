@@ -61,37 +61,7 @@ public:
     }
 };
 // @lc code=end
-// for (i1 = 0; i1 < m; ++i1) {
-//             for (j1 = 0; j1 < n; ++j1) {
-//                 if (matrix[i1][j1] == '0')
-//                     continue;
-//                 max_ = max(max_, 1);
-//                 min_i2 = m, min_j2 = n;
-//                 for (i2 = i1; i2 < m; ++i2) {
-//                     for (j2 = j1; j2 < n; ++j2) {
-//                         if (i2 >= min_i2 && j2 >= min_j2)
-//                             continue;
-//                         if ((i2 - i1 + 1) * (j2 - j1 + 1) < max_) {
-//                             continue;
-//                         }
-//                         rect = true;
-//                         for (k = 0; k < (i2 - i1 + 1) * (j2 - j1 + 1);
-//                         ++k) {
-//                             c = matrix[i1 + k / (j2 - j1 + 1)]
-//                                       [j1 + k % (j2 - j1 + 1)];
-//                             if (c == '0') {
-//                                 min_i2 = min(min_i2, i1 + k / (j2 - j1 +
-//                                 1)); min_j2 = min(min_j2, j1 + k % (j2 -
-//                                 j1 + 1)); rect = false; break;
-//                             }
-//                         }
-//                         if (rect)
-//                             max_ = max(max_, (i2 - i1 + 1) * (j2 - j1 +
-//                             1));
-//                     }
-//                 }
-//             }
-//         }
+
 int main() {
     Solution s;
     vector<vector<char>> matrix
