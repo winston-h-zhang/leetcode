@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# my stuff
+_to_cpp_vector.txt
+
